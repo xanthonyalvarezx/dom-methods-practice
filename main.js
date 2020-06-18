@@ -52,8 +52,9 @@ button2.addEventListener('click', function () {
 
 //create button event listner
 button3.addEventListener('click', function () {
-    let addition = input3.value
+    let addition = input2.value
     newDiv = document.createElement('div')
+    newDiv.id = 'addition'
     body.append(newDiv)
     newDiv.append(addition)
     console.log(addition)
